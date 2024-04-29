@@ -7,7 +7,14 @@ return {
     "MunifTanjim/nui.nvim",
   },
   opts = {
-    hide_hidden = false,
+    filesystem = {
+      filtered_items = {
+        visible = true,
+        hide_hidden = false,
+        hide_dotfiles = false,
+        hide_gitignored = false,
+      },
+    },
     source_selector = {
       winbar = true,
       tabs_layout = "start",
