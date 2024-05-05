@@ -1,0 +1,1 @@
+/home/alexandresparton/.asdf/completions/asdf.fish
