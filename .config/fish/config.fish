@@ -34,6 +34,9 @@ if status is-interactive
 	# ssh
 	alias rssh="eval (ssh-agent -c) && ssh-add ~/.ssh/id_ed25519"
 
+  # tmux
+  alias tnew="tmux new -s (basename (pwd))"
+
 	starship init fish | source	
 end
 
