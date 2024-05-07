@@ -5,6 +5,7 @@ My personal dotfiles to configure my terminal.
 ## Content
 
 Tools versioned :
+
 - .bashrc
 - tmux
 - nvim
@@ -32,4 +33,3 @@ stow --adopt .
 ```
 
 > ⚠️ If there is a conflict between your current dotfiles and the one you pulled or cloned, make sure to keep the latest version you want.
-
