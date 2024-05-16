@@ -31,6 +31,7 @@ if status is-interactive
 	alias gbrm="git branch -m"
 	alias gbl="git branch"
 	alias gits="git status"
+  alias gbd="git branch -d"
 
 	# ssh
 	alias rssh="eval (ssh-agent -c) && ssh-add ~/.ssh/id_ed25519"
