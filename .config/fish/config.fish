@@ -21,6 +21,7 @@ if status is-interactive
 	# Git
 	alias gis="git switch"
 	alias gism="git switch main"
+  alias gismstr="git switch master"
 	alias gp="git push"
   alias ga="git add"
 	alias gal="git add ."
@@ -38,6 +39,7 @@ if status is-interactive
 
   # tmux
   alias tnew="tmux new -s (basename (pwd))"
+  alias tnv="tmux new-session -s (basename (pwd)) -n nvim 'nvim .'"
 
 	starship init fish | source	
 end
