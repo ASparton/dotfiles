@@ -16,14 +16,20 @@ Tools versioned :
 
 ## Requirements
 
-- [stow](https://www.gnu.org/software/stow/)
+### Hard requirements
+
+- [stow](https://www.gnu.org/software/stow/) to create symlinks for the dotfiles.
+
+### Soft requirements (highly used in these dotfiles but can be removed)
+- [zoxide](https://github.com/ajeetdsouza/zoxide) used to navigate the system directories.
+- [asdf](https://asdf-vm.com/) to manage tools versions easily on your system
 
 ## Installation
 
 1. Clone the repository inside your `$HOME` directory. You can use the command:
 
 ```bash
-git clone https://github.com/ASparton/dotfiles ~/$HOME/dotfiles
+git clone https://github.com/ASparton/dotfiles $HOME/dotfiles
 ```
 
 2. Use stow to apply your configuration files:
