@@ -16,6 +16,7 @@ if status is-interactive
 	alias dcdown="sudo docker compose down"
 	alias dcup="sudo docker compose up"
 	alias dlogs="sudo docker logs"
+  alias drmongo="sudo docker run -tdi -p 27017:27017 mongo"
 
 	# Git
 	alias gis="git switch"
