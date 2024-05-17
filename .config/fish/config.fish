@@ -33,6 +33,8 @@ if status is-interactive
 	alias gbl="git branch"
 	alias gits="git status"
   alias gbd="git branch -d"
+  alias gpa="git push -o merge_request.create -o merge_request.target=master -o merge_request.remove_source_branch -o merge_request.assign="asparton@hellowork.com" origin"
+  alias gpauto="git push -o merge_request.create -o merge_request.target=master -o merge_request.remove_source_branch -o merge_request.assign="asparton@hellowork.com" -o merge_request.merge_when_pipeline_succeeds origin"
 
 	# ssh
 	alias rssh="eval (ssh-agent -c) && ssh-add ~/.ssh/id_ed25519"
