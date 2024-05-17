@@ -20,7 +20,7 @@ if status is-interactive
 
 	# Git
 	alias gis="git switch"
-	alias gism="git switch main"
+	alias gism="git switch master"
   alias gismstr="git switch master"
 	alias gp="git push"
   alias ga="git add"
@@ -40,6 +40,10 @@ if status is-interactive
   # tmux
   alias tnew="tmux new -s (basename (pwd))"
   alias tnv="tmux new-session -s (basename (pwd)) -n nvim 'nvim .'"
+
+  # scrapy
+  alias scrawl="scrapy crawl"
+  alias sdebug="scrapy debug"
 
 	starship init fish | source	
 end
